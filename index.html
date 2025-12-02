@@ -7,7 +7,7 @@
     <!-- Open Graph -->
     <meta property="og:title" content="SkyTax">
     <meta property="og:description" content="Sky פתרונות תכנה">
-    <meta property="og:image" content="https://raw.githubusercontent.com/TamarBollak0077/SkyTax/main/%D7%9E%D7%95%D7%93%D7%A2%D7%94.jpg">
+    <meta property="og:image" content="https://raw.githubusercontent.com/TamarBollak0077/SkyTax/main/Robot.jpg">
     <meta property="og:url" content="https://skytax.fillout.com/welcome">
     <meta property="og:type" content="website">
 
@@ -16,26 +16,32 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-        img {
-            max-width: 100%;
+        a img {
+            max-width: 90%;
             height: auto;
-            border: 2px solid #ccc;
-            border-radius: 8px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: transform 0.25s ease;
+            cursor: pointer;
+        }
+        a img:hover {
+            transform: scale(1.03);
         }
     </style>
 </head>
 <body>
-    <h1>דף פריוויו SkyTax</h1>
-    <p>זהו דף סטטי לצורך הצגת פריוויו.</p>
+
     <a href="https://skytax.fillout.com/welcome" target="_blank">
-    <img src="https://raw.githubusercontent.com/TamarBollak0077/SkyTax/main/Robot.jpg" alt="Preview Image">
-</a>
+        <img src="https://raw.githubusercontent.com/TamarBollak0077/SkyTax/main/Robot.jpg" alt="SkyTax Preview">
+    </a>
+
 </body>
 </html>
-
-
-
